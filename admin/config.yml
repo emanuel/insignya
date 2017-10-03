@@ -4,3 +4,29 @@ backend:
   branch: master # Branch to update
 
 media_folder: "uploads"
+
+collections:
+  - name: "equipa" # Used in routes, e.g., /admin/collections/blog
+    label: "Equipa" # Used in the UI
+    folder: "_posts/equipa" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "classe", name: "title", widget: "string"}
+      - {label: "Imagem de background", name: "background_image_path", widget: "image"}
+      - {label: "Categoria", name: "category", widget: "string"}
+      - {label: "Cargo", name: "cargo", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Paragrafo 1", name: "paragrafo1", widget: "markdown"}
+      - {label: "Paragrafo 2", name: "paragrafo2", widget: "markdown"}
+      - {label: "Paragrafo 3", name: "paragrafo3", widget: "markdown"}
+      - {label: "Paragrafo 4", name: "paragrafo4", widget: "markdown"}
+      - {label: "Paragrafo 5", name: "paragrafo5", widget: "markdown"}
+      - {label: "Paragrafo 6", name: "paragrafo6", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+        
+
+
