@@ -13,8 +13,3 @@ paragrafo4: Iniciou a carreira profissional de advogado e consultor jurídico de
 paragrafo5: Entre 1995 e 2009 foi Director dos Serviços Jurídicos e Contencioso do Grupo Império Pneus. Além destas funções, foi jurista da DGV/IMTT (1998), formador (Anje e IEFP), bem como Presidente do Conselho Jurisdicional do ABC (andebol) e Procurador do BES/Novobanco.
 paragrafo6: Licenciado em Direito (1992) pela Universidade Católica Portuguesa – Lisboa, Pós-Graduado em Estudos Europeus pela Universidade de Coimbra (1995) e Mestre em Ciências Jurídico-Comerciais pela Universidade Católica Portuguesa. Masters em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.
 ---
-
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
-  {% include equipa.html %}       
-</body>
