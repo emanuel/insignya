@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: emanuel/insignya
+  branch: master # Branch to update
