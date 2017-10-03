@@ -31,6 +31,7 @@ paragrafo6: >-
   em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.
 rating: '1'
 titulo: Carlos Pires
+layout: equipa
 ---
 **Aqui** vai mais um teste brilhante. 
 
